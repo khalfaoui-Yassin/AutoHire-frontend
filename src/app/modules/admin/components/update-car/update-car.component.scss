@@ -1,0 +1,77 @@
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .form-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  .image-upload-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .file-upload-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .file-upload-text {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #555555;
+  }
+  
+  .image-preview-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .preview-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .submit-button {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #1890ff;
+    color: #fff;
+  }
+  
+  .nz-form-item {
+    margin-bottom: 20px;
+  }
+  
+  .nz-form-control {
+    width: 100%;
+  }
+  

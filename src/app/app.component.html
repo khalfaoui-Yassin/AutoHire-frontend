@@ -1,0 +1,49 @@
+<!-- Check if both Admin and Customer are logged in -->
+<div *ngIf="!isAdminLoggedIn && !isCustomerLoggedIn">
+  <nz-header class="main-header" nz-row nzType="flex" class="custom-navbar">
+    <div class="navbar-title">
+      <a routerLink="/login">AutoHire Service</a>
+    </div>
+    <div class="nav-links">
+      <a nz-button nzType="link" routerLink="/register" routerLinkActive="active">Sign Up</a>
+      <a nz-button nzType="link" routerLink="/login" routerLinkActive="active">Login</a>
+    </div>
+  </nz-header>
+</div>
+
+<!-- Check if Admin is logged in -->
+<div *ngIf="isAdminLoggedIn">
+  <nz-header class="main-header" nz-row nzType="flex" class="custom-navbar">
+    <div class="navbar-title">
+      <a routerLink="/login">Logged In Admin</a>
+    </div>
+    <div class="nav-links">
+      <a nz-button nzType="link" routerLink="/admin/dashboard" routerLinkActive="active">Dashboard</a>
+      <a nz-button nzType="link" routerLink="/admin/car" routerLinkActive="active">Post CAR</a>
+      <a nz-button nzType="link" routerLink="/admin/bookings" routerLinkActive="active">Bookings</a>
+      <a nz-button nzType="link" routerLink="/admin/search" routerLinkActive="active">Search Car</a>
+
+
+      <a nz-button nzType="link" routerLinkActive="active" (click)="logout()">Logout</a>
+    </div>
+  </nz-header>
+</div>
+
+<!-- Check if Customer is logged in -->
+<div *ngIf="isCustomerLoggedIn">
+  <nz-header class="main-header" nz-row nzType="flex" class="custom-navbar">
+    <div class="navbar-title">
+      <a routerLink="/login">Logged In Customer</a>
+    </div>
+    <div class="nav-links">
+      <a nz-button nzType="link" routerLink="/customer/dashboard" routerLinkActive="active">Dashboard</a>
+      <a nz-button nzType="link" routerLink="/customer/my_bookings" routerLinkActive="active">My Bookings</a>
+      <a nz-button nzType="link" routerLink="/customer/car/search" routerLinkActive="active">Search Car</a>
+
+
+      <a nz-button nzType="link" routerLinkActive="active" (click)="logout()">Logout</a>
+    </div>
+  </nz-header>
+</div>
+
+<router-outlet></router-outlet>
