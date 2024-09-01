@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CarRentalAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.1.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# AutoHire-frontend
+Le frontend d'AutoHire, développé en utilisant le framework Angular, fournit l'interface utilisateur de l'application. Il est conçu pour offrir une expérience utilisateur fluide et réactive, en permettant aux utilisateurs de naviguer facilement à travers les différentes
+>>>>>>> 4de4278e79054fa00dfd58075269056e8446a98a
