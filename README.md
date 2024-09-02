@@ -30,3 +30,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # AutoHire-frontend
 Le frontend d'AutoHire, développé en utilisant le framework Angular, fournit l'interface utilisateur de l'application. Il est conçu pour offrir une expérience utilisateur fluide et réactive, en permettant aux utilisateurs de naviguer facilement à travers les différentes
 >>>>>>> 4de4278e79054fa00dfd58075269056e8446a98a
+## الواجهة الخلفية
+هذا المشروع يعتمد على الواجهة الخلفية الموجودة في المستودع التالي:
+[الواجهة الخلفية](https://github.com/khalfaoui-Yassin/AutoHire-backend.git)
